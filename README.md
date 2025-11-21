@@ -15,3 +15,5 @@ Job completions can be identified by looking at the fullsample csv and loking fo
 To identify periods of unresponsiveness, use the two log files. Look for records that are the "sbatch" command from user 9204 (the test user) that have return code 1 and an execution time of greater than 15 seconds.
 
 At the end of the project, your group will deliver a 10-15 minute presentation showing your findings and conclusions about this question. Do you find evidence to support the hypothesis that the scheduler is more likely to be unresponsive during periods of a high number of job completions? Your presentation can include any exploratory analysis that you did to work towards answering the main question. 
+
+If time allows, you could consider looking at other potential factors influencing unresponsiveness, such as number of currently running jobs or resources, time of day, or day of week, or any other variables you want to consider.
